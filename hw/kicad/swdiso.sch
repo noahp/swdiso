@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/26/2013 9:01:59 AM
+EESchema Schematic File Version 2  date 2/26/2013 9:28:26 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,13 +45,355 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2500 3450
+Wire Wire Line
+	2500 3150 2400 3150
+Wire Wire Line
+	2500 5550 2500 3150
+Connection ~ 2500 4050
+Wire Wire Line
+	2500 3750 2400 3750
+Connection ~ 2500 4650
+Wire Wire Line
+	2500 4350 2400 4350
+Connection ~ 2500 5250
+Wire Wire Line
+	2500 4950 2400 4950
+Wire Wire Line
+	2650 4800 2350 4800
+Wire Wire Line
+	2350 3900 2650 3900
+Wire Wire Line
+	2650 3600 2350 3600
+Wire Wire Line
+	4800 4000 4950 4000
+Wire Wire Line
+	4800 4150 4950 4150
+Wire Wire Line
+	6600 4000 6450 4000
+Connection ~ 9050 1900
+Wire Wire Line
+	9050 4000 9050 1600
+Wire Wire Line
+	9050 1600 9150 1600
+Connection ~ 9050 2500
+Wire Wire Line
+	9050 2200 9150 2200
+Connection ~ 9050 3100
+Wire Wire Line
+	9150 2800 9050 2800
+Connection ~ 9050 3700
+Wire Wire Line
+	9050 3400 9150 3400
+Connection ~ 9050 5500
+Wire Wire Line
+	9050 5200 9050 6100
+Wire Wire Line
+	9050 5200 9200 5200
+Wire Wire Line
+	9050 6100 9200 6100
+Wire Wire Line
+	9150 5350 9000 5350
+Wire Wire Line
+	6600 2950 6450 2950
+Wire Wire Line
+	6600 4600 6450 4600
+Wire Wire Line
+	9000 6250 9150 6250
+Wire Wire Line
+	4800 4750 4950 4750
+Wire Wire Line
+	6600 3100 6450 3100
+Wire Wire Line
+	9150 4000 9000 4000
+Wire Wire Line
+	6450 2200 6600 2200
+Wire Wire Line
+	4800 3100 4950 3100
+Wire Wire Line
+	4800 2350 4950 2350
+Wire Wire Line
+	8950 2050 9200 2050
+Wire Wire Line
+	7100 2800 7100 2650
+Wire Wire Line
+	6450 2800 6600 2800
+Wire Wire Line
+	4800 2650 4950 2650
+Wire Wire Line
+	4300 2800 4300 2650
+Wire Wire Line
+	9150 5650 9000 5650
+Wire Wire Line
+	8950 2950 9200 2950
+Wire Wire Line
+	4300 2650 4150 2650
+Wire Wire Line
+	4800 2800 4950 2800
+Wire Wire Line
+	6600 2650 6450 2650
+Wire Wire Line
+	7100 2650 7250 2650
+Wire Wire Line
+	9150 5050 9000 5050
+Wire Wire Line
+	2550 5700 2550 5550
+Wire Wire Line
+	2550 5550 2400 5550
+Wire Wire Line
+	4950 2200 4800 2200
+Wire Wire Line
+	4800 3250 4950 3250
+Wire Wire Line
+	9050 1150 9200 1150
+Wire Wire Line
+	6600 2350 6450 2350
+Wire Wire Line
+	6600 3250 6450 3250
+Wire Wire Line
+	6600 4750 6450 4750
+Wire Wire Line
+	9200 3250 8950 3250
+Wire Wire Line
+	4950 4600 4800 4600
+Wire Wire Line
+	4800 2950 4950 2950
+Wire Wire Line
+	9200 2350 8950 2350
+Wire Wire Line
+	9000 4900 9200 4900
+Wire Wire Line
+	9050 5500 9200 5500
+Wire Wire Line
+	9050 3700 9150 3700
+Connection ~ 9050 4000
+Wire Wire Line
+	9050 3100 9150 3100
+Connection ~ 9050 3400
+Wire Wire Line
+	9050 2500 9150 2500
+Connection ~ 9050 2800
+Wire Wire Line
+	9050 1900 9150 1900
+Connection ~ 9050 2200
+Wire Wire Line
+	6600 5050 6450 5050
+Wire Wire Line
+	6600 4150 6450 4150
+Wire Wire Line
+	4750 5050 4950 5050
+Wire Wire Line
+	2650 2700 2350 2700
+Wire Wire Line
+	2650 4500 2350 4500
+Wire Wire Line
+	2500 5250 2400 5250
+Connection ~ 2500 5550
+Wire Wire Line
+	2500 4650 2400 4650
+Connection ~ 2500 4950
+Wire Wire Line
+	2500 4050 2400 4050
+Connection ~ 2500 4350
+Wire Wire Line
+	2500 3450 2400 3450
+Connection ~ 2500 3750
+Text GLabel 4800 4000 0    60   Input ~ 0
+VCC_HOST
+$Comp
+L HOST_GND #PWR?
+U 1 1 512CC655
+P 4750 5050
+F 0 "#PWR?" H 4750 5050 40  0001 C CNN
+F 1 "HOST_GND" H 4750 4980 40  0000 C CNN
+	1    4750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOST_GND #PWR?
+U 1 1 512CC650
+P 4800 4150
+F 0 "#PWR?" H 4800 4150 40  0001 C CNN
+F 1 "HOST_GND" H 4800 4080 40  0000 C CNN
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC64A
+P 6600 4150
+F 0 "#PWR?" H 6600 4150 40  0001 C CNN
+F 1 "TRGT_GND" H 6600 4080 40  0000 C CNN
+	1    6600 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 4000 2    60   Input ~ 0
+VCC_TRGT
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC63D
+P 6600 5050
+F 0 "#PWR?" H 6600 5050 40  0001 C CNN
+F 1 "TRGT_GND" H 6600 4980 40  0000 C CNN
+	1    6600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC5FB
+P 9050 6100
+F 0 "#PWR?" H 9050 6100 40  0001 C CNN
+F 1 "TRGT_GND" H 9050 6030 40  0000 C CNN
+	1    9050 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 4900 0    60   Input ~ 0
+VCC_TRGT
+Text GLabel 9000 5350 0    60   Input ~ 0
+SWCLK_TRGT
+Text GLabel 8950 2350 0    60   Input ~ 0
+SWCLK_TRGT
+Text GLabel 6600 2950 2    60   Input ~ 0
+SWCLK_TRGT
+Text GLabel 4800 2950 0    60   Input ~ 0
+SWCLK_HOST
+Text GLabel 2650 3900 2    60   Input ~ 0
+SWCLK_HOST
+Text GLabel 8950 3250 0    60   Input ~ 0
+nRESET_TRGT
+Text GLabel 9000 6250 0    60   Input ~ 0
+nRESET_TRGT
+Text GLabel 6600 4750 2    60   Input ~ 0
+nRESET_TRGT
+Text GLabel 4800 4750 0    60   Input ~ 0
+nRESET_HOST
+Text GLabel 2650 4800 2    60   Input ~ 0
+nRESET_HOST
+Text GLabel 6600 3100 2    60   Input ~ 0
+VCC_TRGT
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC440
+P 6600 3250
+F 0 "#PWR?" H 6600 3250 40  0001 C CNN
+F 1 "TRGT_GND" H 6600 3180 40  0000 C CNN
+	1    6600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC439
+P 9000 4000
+F 0 "#PWR?" H 9000 4000 40  0001 C CNN
+F 1 "TRGT_GND" H 9000 3930 40  0000 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6600 2200 2    60   Input ~ 0
+VCC_TRGT
+Text GLabel 9050 1150 0    60   Input ~ 0
+VCC_TRGT
+Text GLabel 4800 3100 0    60   Input ~ 0
+VCC_HOST
+$Comp
+L HOST_GND #PWR?
+U 1 1 512CC351
+P 4800 3250
+F 0 "#PWR?" H 4800 3250 40  0001 C CNN
+F 1 "HOST_GND" H 4800 3180 40  0000 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L HOST_GND #PWR?
+U 1 1 512CC33D
+P 4800 2350
+F 0 "#PWR?" H 4800 2350 40  0001 C CNN
+F 1 "HOST_GND" H 4800 2280 40  0000 C CNN
+	1    4800 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 2200 0    60   Input ~ 0
+VCC_HOST
+Text GLabel 2650 2700 2    60   Input ~ 0
+VCC_HOST
+$Comp
+L HOST_GND #PWR?
+U 1 1 512CC28F
+P 2550 5700
+F 0 "#PWR?" H 2550 5700 40  0001 C CNN
+F 1 "HOST_GND" H 2550 5630 40  0000 C CNN
+	1    2550 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRGT_GND #PWR?
+U 1 1 512CC25D
+P 6600 2350
+F 0 "#PWR?" H 6600 2350 40  0001 C CNN
+F 1 "TRGT_GND" H 6600 2280 40  0000 C CNN
+	1    6600 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 5050 0    60   Input ~ 0
+SWDIO_TRGT
+Text GLabel 8950 2050 0    60   Input ~ 0
+SWDIO_TRGT
+$Comp
+L R R?
+U 1 1 512CC198
+P 6850 2800
+F 0 "R?" V 6800 3000 50  0000 C CNN
+F 1 "R" V 6850 2800 50  0000 C CNN
+	1    6850 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 512CC194
+P 6850 2650
+F 0 "R?" V 6800 2850 50  0000 C CNN
+F 1 "R" V 6850 2650 50  0000 C CNN
+	1    6850 2650
+	0    1    1    0   
+$EndComp
+Text GLabel 7250 2650 2    60   Input ~ 0
+SWDIO_TRGT
+$Comp
+L R R?
+U 1 1 512CC148
+P 4550 2800
+F 0 "R?" V 4500 3000 50  0000 C CNN
+F 1 "R" V 4550 2800 50  0000 C CNN
+	1    4550 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 512CC13C
+P 4550 2650
+F 0 "R?" V 4500 2850 50  0000 C CNN
+F 1 "R" V 4550 2650 50  0000 C CNN
+	1    4550 2650
+	0    1    1    0   
+$EndComp
+Text GLabel 4150 2650 0    60   Input ~ 0
+SWDIO_HOST
+Text GLabel 2650 3600 2    60   Input ~ 0
+SWDIO_HOST
+Text GLabel 9000 5650 0    60   Input ~ 0
+SWO_TRGT
+Text GLabel 8950 2950 0    60   Input ~ 0
+SWO_TRGT
+Text GLabel 2650 4500 2    60   Input ~ 0
+SWO_HOST
 $Comp
 L ARM_20PIN J?
 U 1 1 512CC04A
-P 8600 2450
-F 0 "J?" H 8600 700 60  0000 C CNN
-F 1 "ARM_20PIN" H 8600 3850 60  0000 C CNN
-	1    8600 2450
+P 9650 2400
+F 0 "J?" H 9650 650 60  0000 C CNN
+F 1 "ARM_20PIN" H 9650 3800 60  0000 C CNN
+	1    9650 2400
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -66,19 +408,15 @@ $EndComp
 $Comp
 L ARM_10PIN J?
 U 1 1 512CC040
-P 8600 5400
-F 0 "J?" H 8600 4400 60  0000 C CNN
-F 1 "ARM_10PIN" H 8600 6050 60  0000 C CNN
-	1    8600 5400
+P 9650 5400
+F 0 "J?" H 9650 4400 60  0000 C CNN
+F 1 "ARM_10PIN" H 9650 6050 60  0000 C CNN
+	1    9650 5400
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 2950 4950 2950
-Wire Wire Line
-	6600 2950 6450 2950
-Text GLabel 4800 2950 0    60   Input ~ 0
+Text GLabel 4800 4600 0    60   Input ~ 0
 SWO_HOST
-Text GLabel 6600 2950 2    60   Input ~ 0
+Text GLabel 6600 4600 2    60   Input ~ 0
 SWO_TRGT
 $Comp
 L SI8440 U?

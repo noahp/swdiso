@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/26/2013 9:50:52 AM
+EESchema Schematic File Version 2  date 2/26/2013 9:59:07 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 6550 3100
+Wire Wire Line
+	6550 3100 6550 2950
+Wire Wire Line
+	6550 2950 6450 2950
+Wire Wire Line
+	4800 4450 4950 4450
 Wire Wire Line
 	4250 5700 4150 5700
 Wire Wire Line
@@ -164,8 +171,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 4600 6450 4600
 Wire Wire Line
-	6600 2950 6450 2950
-Wire Wire Line
 	9150 5350 9000 5350
 Wire Wire Line
 	9200 6100 9050 6100
@@ -226,6 +231,14 @@ Wire Wire Line
 	4750 5800 4750 5700
 Wire Wire Line
 	4750 5700 4650 5700
+Wire Wire Line
+	2350 5400 2650 5400
+Wire Wire Line
+	6450 4450 6600 4450
+Text GLabel 4800 2950 0    60   Input ~ 0
+VTREF_HOST
+Text GLabel 2650 2700 2    60   Input ~ 0
+VTREF_HOST
 $Comp
 L HOST_GND #PWR?
 U 1 1 512CCBC5
@@ -372,9 +385,9 @@ Text GLabel 9000 5350 0    60   Input ~ 0
 SWCLK_TRGT
 Text GLabel 8950 2350 0    60   Input ~ 0
 SWCLK_TRGT
-Text GLabel 6600 2950 2    60   Input ~ 0
+Text GLabel 6600 4450 2    60   Input ~ 0
 SWCLK_TRGT
-Text GLabel 4800 2950 0    60   Input ~ 0
+Text GLabel 4800 4450 0    60   Input ~ 0
 SWCLK_HOST
 Text GLabel 2650 3900 2    60   Input ~ 0
 SWCLK_HOST
@@ -434,7 +447,7 @@ F 1 "HOST_GND" H 4800 2280 40  0000 C CNN
 $EndComp
 Text GLabel 4800 2200 0    60   Input ~ 0
 VCC_HOST
-Text GLabel 2650 2700 2    60   Input ~ 0
+Text GLabel 2650 5400 2    60   Input ~ 0
 VCC_HOST
 $Comp
 L HOST_GND #PWR?

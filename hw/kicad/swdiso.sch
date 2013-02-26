@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/26/2013 9:59:07 AM
+EESchema Schematic File Version 2  date 2/26/2013 12:36:27 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,29 +45,51 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	3850 6850 3950 6850
+Wire Wire Line
+	3950 6850 3950 6750
+Wire Wire Line
+	3450 6850 3350 6850
+Connection ~ 6700 4450
+Wire Wire Line
+	6950 4450 6700 4450
+Connection ~ 6700 4850
+Wire Wire Line
+	6950 4850 6550 4850
+Wire Wire Line
+	4900 4100 4900 4700
+Connection ~ 6550 1850
+Wire Wire Line
+	6850 1850 6550 1850
+Wire Wire Line
+	6550 1600 6550 2200
+Connection ~ 4850 1850
+Wire Wire Line
+	4600 1850 4850 1850
+Wire Wire Line
+	6550 1600 6650 1600
+Wire Wire Line
+	4950 2200 4850 2200
 Connection ~ 6550 3100
 Wire Wire Line
 	6550 3100 6550 2950
 Wire Wire Line
 	6550 2950 6450 2950
 Wire Wire Line
-	4800 4450 4950 4450
-Wire Wire Line
-	4250 5700 4150 5700
-Wire Wire Line
-	4750 6300 4750 6450
+	4900 5150 5050 5150
 Wire Wire Line
 	3900 1100 3900 1000
 Wire Wire Line
 	3900 1000 3800 1000
 Wire Wire Line
-	7050 1000 7050 900 
+	7300 1000 7300 900 
 Wire Wire Line
-	7050 900  7150 900 
+	7300 900  7400 900 
 Wire Wire Line
-	7050 1500 7050 1650
+	7300 1500 7300 1650
 Wire Wire Line
-	6450 4900 6600 4900
+	6550 5600 6700 5600
 Connection ~ 2500 3750
 Wire Wire Line
 	2500 3450 2400 3450
@@ -85,11 +107,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 2700 2350 2700
 Wire Wire Line
-	4750 5050 4950 5050
+	4850 5750 5050 5750
 Wire Wire Line
-	6600 4150 6450 4150
-Wire Wire Line
-	6600 5050 6450 5050
+	6700 5750 6550 5750
 Connection ~ 9050 2200
 Wire Wire Line
 	9050 1900 9150 1900
@@ -111,21 +131,17 @@ Wire Wire Line
 Wire Wire Line
 	4800 2950 4950 2950
 Wire Wire Line
-	4950 4600 4800 4600
+	5050 5300 4900 5300
 Wire Wire Line
 	9200 3250 8950 3250
 Wire Wire Line
-	6600 4750 6450 4750
+	6700 5450 6550 5450
 Wire Wire Line
 	6600 3250 6450 3250
-Wire Wire Line
-	6600 2350 6450 2350
 Wire Wire Line
 	9050 1150 9200 1150
 Wire Wire Line
 	4800 3250 4950 3250
-Wire Wire Line
-	4950 2200 4800 2200
 Wire Wire Line
 	2400 5550 2550 5550
 Wire Wire Line
@@ -155,21 +171,17 @@ Wire Wire Line
 Wire Wire Line
 	8950 2050 9200 2050
 Wire Wire Line
-	4800 2350 4950 2350
-Wire Wire Line
 	4800 3100 4950 3100
 Wire Wire Line
-	6450 2200 6600 2200
+	9000 4000 9150 4000
 Wire Wire Line
-	9150 4000 9000 4000
+	6450 3100 6600 3100
 Wire Wire Line
-	6600 3100 6450 3100
-Wire Wire Line
-	4800 4750 4950 4750
+	4900 5450 5050 5450
 Wire Wire Line
 	9000 6250 9150 6250
 Wire Wire Line
-	6600 4600 6450 4600
+	6700 5300 6550 5300
 Wire Wire Line
 	9150 5350 9000 5350
 Wire Wire Line
@@ -194,11 +206,9 @@ Wire Wire Line
 	9050 1600 9050 4000
 Connection ~ 9050 1900
 Wire Wire Line
-	6600 4000 6450 4000
+	6550 4700 6700 4700
 Wire Wire Line
-	4800 4150 4950 4150
-Wire Wire Line
-	4800 4000 4950 4000
+	4900 4700 5050 4700
 Wire Wire Line
 	2650 3600 2350 3600
 Wire Wire Line
@@ -220,53 +230,115 @@ Wire Wire Line
 	2500 3150 2400 3150
 Connection ~ 2500 3450
 Wire Wire Line
-	4950 4900 4750 4900
+	5050 5600 4850 5600
 Wire Wire Line
-	7650 900  7550 900 
+	7900 900  7800 900 
 Wire Wire Line
 	3300 1000 3400 1000
 Wire Wire Line
 	3900 1600 3900 1750
 Wire Wire Line
-	4750 5800 4750 5700
-Wire Wire Line
-	4750 5700 4650 5700
-Wire Wire Line
 	2350 5400 2650 5400
 Wire Wire Line
-	6450 4450 6600 4450
+	6550 5150 6700 5150
+Wire Wire Line
+	4750 1600 4850 1600
+Wire Wire Line
+	6550 2200 6450 2200
+Wire Wire Line
+	4850 1600 4850 2200
+Wire Wire Line
+	4600 2250 4600 2350
+Wire Wire Line
+	4600 2350 4950 2350
+Connection ~ 4800 2350
+Wire Wire Line
+	6850 2250 6850 2350
+Wire Wire Line
+	6850 2350 6450 2350
+Connection ~ 6600 2350
+Wire Wire Line
+	4650 4850 5050 4850
+Connection ~ 4900 4850
+Wire Wire Line
+	4650 4450 4900 4450
+Connection ~ 4900 4450
+Wire Wire Line
+	6700 4700 6700 4100
+Wire Wire Line
+	4050 6150 3950 6150
+Wire Wire Line
+	3950 6150 3950 6250
+Text GLabel 4050 6150 2    60   Input ~ 0
+VCC_HOST
+$Comp
+L C C?
+U 1 1 512CEFED
+P 4650 4650
+F 0 "C?" H 4700 4750 50  0000 L CNN
+F 1 "C" H 4700 4550 50  0000 L CNN
+	1    4650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 512CEFE6
+P 6950 4650
+F 0 "C?" H 7000 4750 50  0000 L CNN
+F 1 "C" H 7000 4550 50  0000 L CNN
+	1    6950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 512CEFA0
+P 6850 2050
+F 0 "C?" H 6900 2150 50  0000 L CNN
+F 1 "C" H 6900 1950 50  0000 L CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 512CEF82
+P 4600 2050
+F 0 "C?" H 4650 2150 50  0000 L CNN
+F 1 "C" H 4650 1950 50  0000 L CNN
+	1    4600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SI8442 U?
+U 1 1 512CBB71
+P 5700 3000
+F 0 "U?" H 5700 2550 60  0000 C CNN
+F 1 "SI8442" H 5700 4000 60  0000 C CNN
+	1    5700 3000
+	1    0    0    -1  
+$EndComp
 Text GLabel 4800 2950 0    60   Input ~ 0
 VTREF_HOST
 Text GLabel 2650 2700 2    60   Input ~ 0
 VTREF_HOST
 $Comp
-L HOST_GND #PWR?
-U 1 1 512CCBC5
-P 4750 6450
-F 0 "#PWR?" H 4750 6450 40  0001 C CNN
-F 1 "HOST_GND" H 4750 6380 40  0000 C CNN
-	1    4750 6450
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R?
 U 1 1 512CCBBB
-P 4750 6050
-F 0 "R?" V 4830 6050 50  0000 C CNN
-F 1 "R" V 4750 6050 50  0000 C CNN
-	1    4750 6050
+P 3950 6500
+F 0 "R?" V 4030 6500 50  0000 C CNN
+F 1 "R" V 3950 6500 50  0000 C CNN
+	1    3950 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D?
 U 1 1 512CCBB9
-P 4450 5700
-F 0 "D?" H 4450 5800 50  0000 C CNN
-F 1 "LED" H 4450 5600 50  0000 C CNN
-	1    4450 5700
-	1    0    0    -1  
+P 3650 6850
+F 0 "D?" H 3650 6950 50  0000 C CNN
+F 1 "LED" H 3650 6750 50  0000 C CNN
+	1    3650 6850
+	-1   0    0    1   
 $EndComp
-Text GLabel 4150 5700 0    60   Input ~ 0
+Text GLabel 3350 6850 0    60   Input ~ 0
 nRESET_HOST
 $Comp
 L HOST_GND #PWR?
@@ -300,74 +372,74 @@ VCC_HOST
 $Comp
 L R R?
 U 1 1 512CCB59
-P 7050 1250
-F 0 "R?" V 7130 1250 50  0000 C CNN
-F 1 "R" V 7050 1250 50  0000 C CNN
-	1    7050 1250
+P 7300 1250
+F 0 "R?" V 7380 1250 50  0000 C CNN
+F 1 "R" V 7300 1250 50  0000 C CNN
+	1    7300 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D?
 U 1 1 512CCB51
-P 7350 900
-F 0 "D?" H 7350 1000 50  0000 C CNN
-F 1 "LED" H 7350 800 50  0000 C CNN
-	1    7350 900 
+P 7600 900
+F 0 "D?" H 7600 1000 50  0000 C CNN
+F 1 "LED" H 7600 800 50  0000 C CNN
+	1    7600 900 
 	-1   0    0    1   
 $EndComp
 $Comp
 L TRGT_GND #PWR?
 U 1 1 512CCB49
-P 7050 1650
-F 0 "#PWR?" H 7050 1650 40  0001 C CNN
-F 1 "TRGT_GND" H 7050 1580 40  0000 C CNN
-	1    7050 1650
+P 7300 1650
+F 0 "#PWR?" H 7300 1650 40  0001 C CNN
+F 1 "TRGT_GND" H 7300 1580 40  0000 C CNN
+	1    7300 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 900  2    60   Input ~ 0
+Text GLabel 7900 900  2    60   Input ~ 0
 VCC_TRGT
-Text GLabel 4750 4900 0    60   Input ~ 0
+Text GLabel 4850 5600 0    60   Input ~ 0
 VCC_HOST
-Text GLabel 6600 4900 2    60   Input ~ 0
+Text GLabel 6700 5600 2    60   Input ~ 0
 VCC_TRGT
-Text GLabel 4800 4000 0    60   Input ~ 0
+Text GLabel 4900 4100 0    60   Input ~ 0
 VCC_HOST
 $Comp
 L HOST_GND #PWR?
 U 1 1 512CC655
-P 4750 5050
-F 0 "#PWR?" H 4750 5050 40  0001 C CNN
-F 1 "HOST_GND" H 4750 4980 40  0000 C CNN
-	1    4750 5050
+P 4850 5750
+F 0 "#PWR?" H 4850 5750 40  0001 C CNN
+F 1 "HOST_GND" H 4850 5680 40  0000 C CNN
+	1    4850 5750
 	1    0    0    -1  
 $EndComp
 $Comp
 L HOST_GND #PWR?
 U 1 1 512CC650
-P 4800 4150
-F 0 "#PWR?" H 4800 4150 40  0001 C CNN
-F 1 "HOST_GND" H 4800 4080 40  0000 C CNN
-	1    4800 4150
+P 4900 4850
+F 0 "#PWR?" H 4900 4850 40  0001 C CNN
+F 1 "HOST_GND" H 4900 4780 40  0000 C CNN
+	1    4900 4850
 	1    0    0    -1  
 $EndComp
 $Comp
 L TRGT_GND #PWR?
 U 1 1 512CC64A
-P 6600 4150
-F 0 "#PWR?" H 6600 4150 40  0001 C CNN
-F 1 "TRGT_GND" H 6600 4080 40  0000 C CNN
-	1    6600 4150
+P 6700 4850
+F 0 "#PWR?" H 6700 4850 40  0001 C CNN
+F 1 "TRGT_GND" H 6700 4780 40  0000 C CNN
+	1    6700 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 4000 2    60   Input ~ 0
+Text GLabel 6700 4100 2    60   Input ~ 0
 VCC_TRGT
 $Comp
 L TRGT_GND #PWR?
 U 1 1 512CC63D
-P 6600 5050
-F 0 "#PWR?" H 6600 5050 40  0001 C CNN
-F 1 "TRGT_GND" H 6600 4980 40  0000 C CNN
-	1    6600 5050
+P 6700 5750
+F 0 "#PWR?" H 6700 5750 40  0001 C CNN
+F 1 "TRGT_GND" H 6700 5680 40  0000 C CNN
+	1    6700 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -385,9 +457,9 @@ Text GLabel 9000 5350 0    60   Input ~ 0
 SWCLK_TRGT
 Text GLabel 8950 2350 0    60   Input ~ 0
 SWCLK_TRGT
-Text GLabel 6600 4450 2    60   Input ~ 0
+Text GLabel 6700 5150 2    60   Input ~ 0
 SWCLK_TRGT
-Text GLabel 4800 4450 0    60   Input ~ 0
+Text GLabel 4900 5150 0    60   Input ~ 0
 SWCLK_HOST
 Text GLabel 2650 3900 2    60   Input ~ 0
 SWCLK_HOST
@@ -395,9 +467,9 @@ Text GLabel 8950 3250 0    60   Input ~ 0
 nRESET_TRGT
 Text GLabel 9000 6250 0    60   Input ~ 0
 nRESET_TRGT
-Text GLabel 6600 4750 2    60   Input ~ 0
+Text GLabel 6700 5450 2    60   Input ~ 0
 nRESET_TRGT
-Text GLabel 4800 4750 0    60   Input ~ 0
+Text GLabel 4900 5450 0    60   Input ~ 0
 nRESET_HOST
 Text GLabel 2650 4800 2    60   Input ~ 0
 nRESET_HOST
@@ -421,7 +493,7 @@ F 1 "TRGT_GND" H 9000 3930 40  0000 C CNN
 	1    9000 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6600 2200 2    60   Input ~ 0
+Text GLabel 6650 1600 2    60   Input ~ 0
 VCC_TRGT
 Text GLabel 9050 1150 0    60   Input ~ 0
 VCC_TRGT
@@ -445,7 +517,7 @@ F 1 "HOST_GND" H 4800 2280 40  0000 C CNN
 	1    4800 2350
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 2200 0    60   Input ~ 0
+Text GLabel 4750 1600 0    60   Input ~ 0
 VCC_HOST
 Text GLabel 2650 5400 2    60   Input ~ 0
 VCC_HOST
@@ -546,26 +618,17 @@ F 1 "ARM_10PIN" H 9650 6050 60  0000 C CNN
 	1    9650 5400
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4800 4600 0    60   Input ~ 0
+Text GLabel 4900 5300 0    60   Input ~ 0
 SWO_HOST
-Text GLabel 6600 4600 2    60   Input ~ 0
+Text GLabel 6700 5300 2    60   Input ~ 0
 SWO_TRGT
 $Comp
 L SI8440 U?
 U 1 1 512CBCBC
-P 5700 4800
-F 0 "U?" H 5700 4350 60  0000 C CNN
-F 1 "SI8440" H 5700 5800 60  0000 C CNN
-	1    5700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SI8442 U?
-U 1 1 512CBB71
-P 5700 3000
-F 0 "U?" H 5700 2550 60  0000 C CNN
-F 1 "SI8442" H 5700 4000 60  0000 C CNN
-	1    5700 3000
+P 5800 5500
+F 0 "U?" H 5800 5050 60  0000 C CNN
+F 1 "SI8440" H 5800 6500 60  0000 C CNN
+	1    5800 5500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

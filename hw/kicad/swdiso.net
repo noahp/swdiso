@@ -1,0 +1,251 @@
+# EESchema Netlist Version 1.1 created  2/26/2013 12:49:53 PM
+(
+ ( /512CEF82 SM0603_Capa C1 C
+  ( 1 VCC_HOST )
+  ( 2 GNDA )
+ )
+ ( /512CEFED SM0603_Capa C2 C
+  ( 1 VCC_HOST )
+  ( 2 GNDA )
+ )
+ ( /512CEFA0 SM0603_Capa C3 C
+  ( 1 VCC_TRGT )
+  ( 2 GNDA )
+ )
+ ( /512CEFE6 SM0603_Capa C4 C
+  ( 1 VCC_TRGT )
+  ( 2 GNDA )
+ )
+ ( /512CCB8C LED-0603 D1 LED
+  ( 1 VCC_HOST )
+  ( 2 N-000007 )
+ )
+ ( /512CCBB9 LED-0603 D2 LED
+  ( 1 N-000008 )
+  ( 2 nRESET_HOST )
+ )
+ ( /512CCB51 LED-0603 D3 LED
+  ( 1 VCC_TRGT )
+  ( 2 N-000006 )
+ )
+ ( /512CC047 $noname$ J1 ARM_20PIN
+  ( 1 VTREF_HOST )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GNDA )
+  ( 5 ? )
+  ( 6 GNDA )
+  ( 7 SWDIO_HOST )
+  ( 8 GNDA )
+  ( 9 SWCLK_HOST )
+  ( 10 GNDA )
+  ( 11 ? )
+  ( 12 GNDA )
+  ( 13 SWO_HOST )
+  ( 14 GNDA )
+  ( 15 nRESET_HOST )
+  ( 16 GNDA )
+  ( 17 ? )
+  ( 18 GNDA )
+  ( 19 VCC_HOST )
+  ( 20 GNDA )
+ )
+ ( /512CC04A $noname$ J2 ARM_20PIN
+  ( 1 VCC_TRGT )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 GNDA )
+  ( 5 ? )
+  ( 6 GNDA )
+  ( 7 SWDIO_TRGT )
+  ( 8 GNDA )
+  ( 9 SWCLK_TRGT )
+  ( 10 GNDA )
+  ( 11 ? )
+  ( 12 GNDA )
+  ( 13 SWO_TRGT )
+  ( 14 GNDA )
+  ( 15 nRESET_TRGT )
+  ( 16 GNDA )
+  ( 17 ? )
+  ( 18 GNDA )
+  ( 19 ? )
+  ( 20 GNDA )
+ )
+ ( /512CC040 $noname$ J3 ARM_10PIN
+  ( 1 VCC_TRGT )
+  ( 2 SWDIO_TRGT )
+  ( 3 GNDA )
+  ( 4 SWCLK_TRGT )
+  ( 5 GNDA )
+  ( 6 SWO_TRGT )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 GNDA )
+  ( 10 nRESET_TRGT )
+ )
+ ( /512CCB8F SM0603 R1 R
+  ( 1 N-000007 )
+  ( 2 GNDA )
+ )
+ ( /512CCBBB SM0603 R2 R
+  ( 1 VCC_HOST )
+  ( 2 N-000008 )
+ )
+ ( /512CC13C SM0603 R3 R
+  ( 1 N-000002 )
+  ( 2 SWDIO_HOST )
+ )
+ ( /512CC148 SM0603 R4 R
+  ( 1 N-000003 )
+  ( 2 SWDIO_HOST )
+ )
+ ( /512CC194 SM0603 R5 R
+  ( 1 SWDIO_TRGT )
+  ( 2 N-000004 )
+ )
+ ( /512CC198 SM0603 R6 R
+  ( 1 SWDIO_TRGT )
+  ( 2 N-000005 )
+ )
+ ( /512CCB59 SM0603 R7 R
+  ( 1 N-000006 )
+  ( 2 GNDA )
+ )
+ ( /512CBB71 $noname$ U1 SI8442
+  ( 1 VCC_HOST )
+  ( 2 GNDA )
+  ( 3 ? )
+  ( 4 N-000002 )
+  ( 5 N-000003 )
+  ( 6 VTREF_HOST )
+  ( 7 VCC_HOST )
+  ( 8 GNDA )
+  ( 9 GNDA )
+  ( 10 VCC_TRGT )
+  ( 11 VCC_TRGT )
+  ( 12 N-000005 )
+  ( 13 N-000004 )
+  ( 14 ? )
+  ( 15 GNDA )
+  ( 16 VCC_TRGT )
+ )
+ ( /512CBCBC $noname$ U2 SI8440
+  ( 1 VCC_HOST )
+  ( 2 GNDA )
+  ( 3 ? )
+  ( 4 SWCLK_HOST )
+  ( 5 SWO_HOST )
+  ( 6 nRESET_HOST )
+  ( 7 VCC_HOST )
+  ( 8 GNDA )
+  ( 9 GNDA )
+  ( 10 VCC_TRGT )
+  ( 11 nRESET_TRGT )
+  ( 12 SWO_TRGT )
+  ( 13 SWCLK_TRGT )
+  ( 14 ? )
+  ( 15 GNDA )
+  ( 16 VCC_TRGT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

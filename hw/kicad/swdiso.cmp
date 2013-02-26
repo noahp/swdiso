@@ -1,0 +1,136 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 12:49:53 PM
+
+BeginCmp
+TimeStamp = /512CEF82;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CEFED;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CEFA0;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CEFE6;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCB8C;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCBB9;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCB51;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC047;
+Reference = J1;
+ValeurCmp = ARM_20PIN;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC04A;
+Reference = J2;
+ValeurCmp = ARM_20PIN;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC040;
+Reference = J3;
+ValeurCmp = ARM_10PIN;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCB8F;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCBBB;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC13C;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC148;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC194;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CC198;
+Reference = R6;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CCB59;
+Reference = R7;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CBB71;
+Reference = U1;
+ValeurCmp = SI8442;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /512CBCBC;
+Reference = U2;
+ValeurCmp = SI8440;
+IdModule  = ;
+EndCmp
+
+EndListe

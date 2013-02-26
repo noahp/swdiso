@@ -1,5 +1,6 @@
 swdiso
 ======
+Your basic SWD (Serial Wire Debug) Isolation module.
 
 isolator
 ------

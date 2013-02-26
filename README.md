@@ -6,6 +6,10 @@ Your basic SWD (Serial Wire Debug) Isolation module.
 ------
 http://www.digikey.com/product-detail/en/GRPB052VWVN-RC/S9015E-05-ND/1786455
 
+20 pin male
+------
+http://www.digikey.com/product-detail/en/SFH11-PBPC-D10-ST-BK/S9197-ND/1990090
+
 isolator ic
 ------
 4X0

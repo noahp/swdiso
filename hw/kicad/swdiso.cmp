@@ -1,52 +1,52 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 5:08:51 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 5:43:38 PM
 
 BeginCmp
 TimeStamp = /512CEF82;
 Reference = C1;
 ValeurCmp = C;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CEFED;
 Reference = C2;
 ValeurCmp = C;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CEFA0;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CEFE6;
 Reference = C4;
 ValeurCmp = C;
-IdModule  = SM0603_Capa;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CCB8C;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CCBB9;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CCB51;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = LED-0603;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp

@@ -1,30 +1,30 @@
-# EESchema Netlist Version 1.1 created  2/26/2013 5:08:51 PM
+# EESchema Netlist Version 1.1 created  2/26/2013 5:43:38 PM
 (
- ( /512CEF82 SM0603_Capa C1 C
+ ( /512CEF82 SM0603 C1 C
   ( 1 VCC_HOST )
   ( 2 GNDA )
  )
- ( /512CEFED SM0603_Capa C2 C
+ ( /512CEFED SM0603 C2 C
   ( 1 VCC_HOST )
   ( 2 GNDA )
  )
- ( /512CEFA0 SM0603_Capa C3 C
+ ( /512CEFA0 SM0603 C3 C
   ( 1 VCC_TRGT )
   ( 2 GNDA )
  )
- ( /512CEFE6 SM0603_Capa C4 C
+ ( /512CEFE6 SM0603 C4 C
   ( 1 VCC_TRGT )
   ( 2 GNDA )
  )
- ( /512CCB8C LED-0603 D1 LED
+ ( /512CCB8C SM0603 D1 LED
   ( 1 VCC_HOST )
   ( 2 N-000007 )
  )
- ( /512CCBB9 LED-0603 D2 LED
+ ( /512CCBB9 SM0603 D2 LED
   ( 1 N-000008 )
   ( 2 nRESET_HOST )
  )
- ( /512CCB51 LED-0603 D3 LED
+ ( /512CCB51 SM0603 D3 LED
   ( 1 VCC_TRGT )
   ( 2 N-000006 )
  )

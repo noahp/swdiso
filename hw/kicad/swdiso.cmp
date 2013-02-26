@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 12:49:53 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 5:08:51 PM
 
 BeginCmp
 TimeStamp = /512CEF82;
@@ -53,21 +53,21 @@ BeginCmp
 TimeStamp = /512CC047;
 Reference = J1;
 ValeurCmp = ARM_20PIN;
-IdModule  = ;
+IdModule  = ARM_20PIN_EDGE_BOTH;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CC04A;
 Reference = J2;
 ValeurCmp = ARM_20PIN;
-IdModule  = ;
+IdModule  = ARM_20PIN_EDGE_BOTH;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CC040;
 Reference = J3;
 ValeurCmp = ARM_10PIN;
-IdModule  = ;
+IdModule  = ARM_10PIN;
 EndCmp
 
 BeginCmp
@@ -123,14 +123,14 @@ BeginCmp
 TimeStamp = /512CBB71;
 Reference = U1;
 ValeurCmp = SI8442;
-IdModule  = ;
+IdModule  = SOIC-16_silabs;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CBCBC;
 Reference = U2;
 ValeurCmp = SI8440;
-IdModule  = ;
+IdModule  = SOIC-16_silabs;
 EndCmp
 
 EndListe

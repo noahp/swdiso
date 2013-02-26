@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  2/26/2013 12:49:53 PM
+# EESchema Netlist Version 1.1 created  2/26/2013 5:08:51 PM
 (
  ( /512CEF82 SM0603_Capa C1 C
   ( 1 VCC_HOST )
@@ -28,7 +28,7 @@
   ( 1 VCC_TRGT )
   ( 2 N-000006 )
  )
- ( /512CC047 $noname$ J1 ARM_20PIN
+ ( /512CC047 ARM_20PIN_EDGE_BOTH J1 ARM_20PIN
   ( 1 VTREF_HOST )
   ( 2 ? )
   ( 3 ? )
@@ -50,7 +50,7 @@
   ( 19 VCC_HOST )
   ( 20 GNDA )
  )
- ( /512CC04A $noname$ J2 ARM_20PIN
+ ( /512CC04A ARM_20PIN_EDGE_BOTH J2 ARM_20PIN
   ( 1 VCC_TRGT )
   ( 2 ? )
   ( 3 ? )
@@ -72,7 +72,7 @@
   ( 19 ? )
   ( 20 GNDA )
  )
- ( /512CC040 $noname$ J3 ARM_10PIN
+ ( /512CC040 ARM_10PIN J3 ARM_10PIN
   ( 1 VCC_TRGT )
   ( 2 SWDIO_TRGT )
   ( 3 GNDA )
@@ -112,7 +112,7 @@
   ( 1 N-000006 )
   ( 2 GNDA )
  )
- ( /512CBB71 $noname$ U1 SI8442
+ ( /512CBB71 SOIC-16_silabs U1 SI8442
   ( 1 VCC_HOST )
   ( 2 GNDA )
   ( 3 ? )
@@ -130,7 +130,7 @@
   ( 15 GNDA )
   ( 16 VCC_TRGT )
  )
- ( /512CBCBC $noname$ U2 SI8440
+ ( /512CBCBC SOIC-16_silabs U2 SI8440
   ( 1 VCC_HOST )
   ( 2 GNDA )
   ( 3 ? )

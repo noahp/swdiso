@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 2/27/2013 4:28:41 PM
+PCBNEW-BOARD Version 1 date 2/27/2013 5:02:09 PM
 
 # Created by Pcbnew(2012-01-19 BZR 3256)-stable
 
@@ -7,11 +7,11 @@ encoding utf-8
 LayerCount 2
 Ly 1FFF8001
 EnabledLayers 1FFF8001
-Links 0
-NoConn 74
+Links 60
+NoConn 52
 Di 37274 24260 51201 37449
 Ndraw 16
-Ntrack 0
+Ntrack 28
 Nzone 0
 BoardThickness 630
 Nmodule 19
@@ -35,7 +35,8 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 60
+TrackWidth 118
+TrackWidthList 118
 TrackClearence 60
 ZoneClearence 200
 TrackMinWidth 60
@@ -55,11 +56,11 @@ TextPcbSize 600 800
 EdgeModWidth 150
 TextModSize 600 600
 TextModWidth 120
-PadSize 610 236
+PadSize 426 902
 PadDrill 0
 Pad2MaskClearance 100
 AuxiliaryAxisOrg 0 0
-PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+PcbPlotParams (pcbplotparams (layerselection 15761409) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -171,6 +172,16 @@ AddNet "VCC_TRGT"
 AddNet "VTREF_HOST"
 AddNet "nRESET_HOST"
 AddNet "nRESET_TRGT"
+$EndNCLASS
+$NCLASS
+Name "fat"
+Desc ""
+Clearance 60
+TrackWidth 118
+ViaDia 200
+ViaDrill 130
+uViaDia 200
+uViaDrill 50
 $EndNCLASS
 $MODULE SOIC-16_silabs
 Po 45276 32677 0 15 512CFC8F 512D3282 ~~
@@ -425,7 +436,7 @@ Po 2126 0
 $EndPAD
 $EndMODULE  SOIC-16_silabs
 $MODULE SM0603
-Po 44291 29134 900 15 512D3A3A 512D328C ~~
+Po 44193 29114 900 15 512D3A3A 512D328C ~~
 Li SM0603
 Sc 512D328C
 AR /512CCB8F
@@ -459,7 +470,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0603
 $MODULE SM0603
-Po 44094 35630 1800 15 512D3A52 512D328E ~~
+Po 44094 35433 1800 15 512D3A52 512D328E ~~
 Li SM0603
 Sc 512D328E
 AR /512CCBBB
@@ -493,7 +504,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0603
 $MODULE SM0603
-Po 43898 30316 1800 15 512D3A41 512D3290 ~~
+Po 43740 30335 1800 15 512D3A41 512D3290 ~~
 Li SM0603
 Sc 512D3290
 AR /512CC13C
@@ -1063,7 +1074,7 @@ Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0603
 $MODULE SM0603
-Po 44094 36417 0 15 4E43A3D1 512D329B ~~
+Po 44094 36220 0 15 4E43A3D1 512D329B ~~
 Li SM0603
 Sc 512D329B
 AR /512CCBB9
@@ -1327,7 +1338,9 @@ De 28 0 900 0 0
 $EndDRAWSEGMENT
 $TEXTPCB
 Te "github.com/noahp/swdiso"
-Po 46024 34291 256 256 60 0
+nl "v0.0"
+nl "2013-02-27"
+Po 45728 34508 256 256 60 0
 De 0 0 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
@@ -1347,7 +1360,7 @@ De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
 Te "RST"
-Po 43189 36496 256 256 64 0
+Po 43110 36220 256 256 64 0
 De 21 1 0 Normal C
 $EndTEXTPCB
 $TEXTPCB
@@ -1382,6 +1395,62 @@ S3 0 41000 26001 41443 26231 120
 S4 0 41000 26001 41443 25771 120
 $endCOTATION
 $TRACK
+Po 0 44291 28253 44291 28716 118 -1
+De 15 0 1 0 400000
+Po 0 44291 28716 44193 28814 118 -1
+De 15 0 1 0 800000
+Po 0 44291 28253 44485 28059 118 -1
+De 15 0 1 0 400000
+Po 0 44485 28059 45276 28059 118 -1
+De 15 0 1 0 800000
+Po 0 44199 30015 44040 30174 118 -1
+De 15 0 2 0 0
+Po 0 44199 30015 44745 29469 118 -1
+De 15 0 2 0 0
+Po 0 44745 29469 44744 29055 118 -1
+De 15 0 2 0 0
+Po 0 44744 29055 45272 29055 118 -1
+De 15 0 2 0 0
+Po 0 45276 29059 45272 29055 118 -1
+De 15 0 2 0 400000
+Po 0 44040 30174 44040 30335 118 -1
+De 15 0 2 0 800000
+Po 0 44370 30197 45009 29559 118 -1
+De 15 0 3 0 0
+Po 0 44370 30197 44370 30931 118 -1
+De 15 0 3 0 0
+Po 0 45276 29559 45009 29559 118 -1
+De 15 0 3 0 400000
+Po 0 44370 30931 44198 31103 118 -1
+De 15 0 3 0 800000
+Po 0 44193 29414 44075 29414 118 -1
+De 15 0 7 0 400000
+Po 0 44075 29414 43504 28843 118 -1
+De 15 0 7 0 800000
+Po 0 43504 28243 44094 27653 118 -1
+De 15 0 15 0 400000
+Po 0 44094 27653 44291 27653 118 -1
+De 15 0 15 0 800000
+Po 0 45276 27559 44385 27559 118 -1
+De 15 0 15 0 400000
+Po 0 44385 27559 44291 27653 118 -1
+De 15 0 15 0 800000
+Po 0 42441 28012 41957 27528 118 -1
+De 15 0 17 0 800000
+Po 0 45276 30059 44941 30059 118 -1
+De 15 0 17 0 400000
+Po 0 44941 30059 44724 30276 118 -1
+De 15 0 17 0 0
+Po 3 44724 30276 44724 30276 200 -1
+De 15 1 17 0 0
+Po 0 44724 30276 42460 28012 118 -1
+De 0 0 17 0 0
+Po 0 42460 28012 42441 28012 118 -1
+De 0 0 17 0 0
+Po 3 42441 28012 42441 28012 200 -1
+De 15 1 17 0 0
+Po 0 41957 27528 41929 27528 118 -1
+De 15 0 17 0 C00000
 $EndTRACK
 $ZONE
 $EndZONE

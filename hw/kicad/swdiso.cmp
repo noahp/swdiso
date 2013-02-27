@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/26/2013 5:43:38 PM
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 2/27/2013 5:27:45 PM
 
 BeginCmp
 TimeStamp = /512CEF82;
@@ -32,21 +32,21 @@ BeginCmp
 TimeStamp = /512CCB8C;
 Reference = D1;
 ValeurCmp = LED;
-IdModule  = SM0603;
+IdModule  = noah_led_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CCBB9;
 Reference = D2;
 ValeurCmp = LED;
-IdModule  = SM0603;
+IdModule  = noah_led_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /512CCB51;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = SM0603;
+IdModule  = noah_led_0603;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=2/26/2013 1:19:38 PM
+update=2/27/2013 4:11:22 PM
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -106,3 +106,4 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=swdiso
+LibName12=oshw-logo-kicad-copper-10mm

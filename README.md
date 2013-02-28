@@ -2,6 +2,12 @@ swdiso
 ======
 Your basic SWD (Serial Wire Debug) Isolation module.
 
+schematic
+---------
+![schematic](https://raw.github.com/noahp/swdiso/master/hw/sch.png)
+![front_render](https://raw.github.com/noahp/swdiso/master/hw/front_render.png)
+![back_render](https://raw.github.com/noahp/swdiso/master/hw/back_render.png)
+
 10 pin header
 ------
 http://www.digikey.com/product-detail/en/GRPB052VWVN-RC/S9015E-05-ND/1786455

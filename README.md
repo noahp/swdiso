@@ -19,7 +19,7 @@ http://www.digikey.com/product-detail/en/SFH11-PBPC-D10-ST-BK/S9197-ND/1990090
 isolator ic
 ------
 4X0
-http://www.mouser.com/ProductDetail/Silicon-Labs/Si8440BA-D-IS1/?qs=sGAEpiMZZMuyKkoWRCJ2WO6E1ROlUeRNcxi34bk2gN8%3d
+http://www.mouser.com/ProductDetail/Silicon-Labs/Si8440BB-D-IS1/?qs=sGAEpiMZZMttmiwpWlqA04b561v%252bXcqf
 
 2X2
 http://www.mouser.com/ProductDetail/Silicon-Labs/Si8442BB-D-IS1/?qs=sGAEpiMZZMuyKkoWRCJ2WO6E1ROlUeRNxAdSPXLPNmY%3d

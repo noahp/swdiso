@@ -4,7 +4,8 @@ Your basic SWD (Serial Wire Debug) Isolation module.
 
 schematic
 ---------
-![schematic](https://raw.github.com/noahp/swdiso/master/hw/kicad/swdiso.pdf)
+https://raw.github.com/noahp/swdiso/master/hw/kicad/swdiso.pdf
+
 ![front_render](https://raw.github.com/noahp/swdiso/master/hw/front_render.png)
 ![back_render](https://raw.github.com/noahp/swdiso/master/hw/back_render.png)
 

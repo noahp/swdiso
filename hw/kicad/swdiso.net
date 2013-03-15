@@ -1,367 +1,332 @@
-# EESchema Netlist Version 1.1 created  2/27/2013 5:41:25 PM
-(
- ( /512CEFED $noname  C2 C {Lib=C}
-  (    1 VCC_HOST )
-  (    2 GND )
- )
- ( /512CEFE6 $noname  C4 C {Lib=C}
-  (    1 VCC_TRGT )
-  (    2 GNDA )
- )
- ( /512CEFA0 $noname  C3 C {Lib=C}
-  (    1 VCC_TRGT )
-  (    2 GNDA )
- )
- ( /512CEF82 $noname  C1 C {Lib=C}
-  (    1 VCC_HOST )
-  (    2 GND )
- )
- ( /512CBB71 $noname  U1 SI8442 {Lib=SI8442}
-  (    1 VCC_HOST )
-  (    2 GND )
-  (    3 ? )
-  (    4 N-000030 )
-  (    5 N-000006 )
-  (    6 VTREF_HOST )
-  (    7 VCC_HOST )
-  (    8 GND )
-  (    9 GNDA )
-  (   10 VCC_TRGT )
-  (   11 VCC_TRGT )
-  (   12 N-000004 )
-  (   13 N-000001 )
-  (   14 ? )
-  (   15 GNDA )
-  (   16 VCC_TRGT )
- )
- ( /512CCBBB $noname  R2 R {Lib=R}
-  (    1 VCC_HOST )
-  (    2 N-000002 )
- )
- ( /512CCBB9 $noname  D2 LED {Lib=LED}
-  (    1 N-000002 )
-  (    2 nRESET_HOST )
- )
- ( /512CCB8F $noname  R1 R {Lib=R}
-  (    1 N-000008 )
-  (    2 GND )
- )
- ( /512CCB8C $noname  D1 LED {Lib=LED}
-  (    1 VCC_HOST )
-  (    2 N-000008 )
- )
- ( /512CCB59 $noname  R7 R {Lib=R}
-  (    1 N-000007 )
-  (    2 GNDA )
- )
- ( /512CCB51 $noname  D3 LED {Lib=LED}
-  (    1 VCC_TRGT )
-  (    2 N-000007 )
- )
- ( /512CC198 $noname  R6 R {Lib=R}
-  (    1 SWDIO_TRGT )
-  (    2 N-000004 )
- )
- ( /512CC194 $noname  R5 R {Lib=R}
-  (    1 SWDIO_TRGT )
-  (    2 N-000001 )
- )
- ( /512CC148 $noname  R4 R {Lib=R}
-  (    1 N-000006 )
-  (    2 SWDIO_HOST )
- )
- ( /512CC13C $noname  R3 R {Lib=R}
-  (    1 N-000030 )
-  (    2 SWDIO_HOST )
- )
- ( /512CC04A $noname  J2 ARM_20PIN {Lib=ARM_20PIN}
-  (    1 VCC_TRGT )
-  (    2 ? )
-  (    3 ? )
-  (    4 GNDA )
-  (    5 ? )
-  (    6 GNDA )
-  (    7 SWDIO_TRGT )
-  (    8 GNDA )
-  (    9 SWCLK_TRGT )
-  (   10 GNDA )
-  (   11 ? )
-  (   12 GNDA )
-  (   13 SWO_TRGT )
-  (   14 GNDA )
-  (   15 nRESET_TRGT )
-  (   16 GNDA )
-  (   17 ? )
-  (   18 GNDA )
-  (   19 ? )
-  (   20 GNDA )
- )
- ( /512CC047 $noname  J1 ARM_20PIN {Lib=ARM_20PIN}
-  (    1 VTREF_HOST )
-  (    2 ? )
-  (    3 ? )
-  (    4 GND )
-  (    5 ? )
-  (    6 GND )
-  (    7 SWDIO_HOST )
-  (    8 GND )
-  (    9 SWCLK_HOST )
-  (   10 GND )
-  (   11 ? )
-  (   12 GND )
-  (   13 SWO_HOST )
-  (   14 GND )
-  (   15 nRESET_HOST )
-  (   16 GND )
-  (   17 ? )
-  (   18 GND )
-  (   19 VCC_HOST )
-  (   20 GND )
- )
- ( /512CC040 $noname  J3 ARM_10PIN {Lib=ARM_10PIN}
-  (    1 VCC_TRGT )
-  (    2 SWDIO_TRGT )
-  (    3 GNDA )
-  (    4 SWCLK_TRGT )
-  (    5 GNDA )
-  (    6 SWO_TRGT )
-  (    7 ? )
-  (    8 ? )
-  (    9 GNDA )
-  (   10 nRESET_TRGT )
- )
- ( /512CBCBC $noname  U2 SI8440 {Lib=SI8440}
-  (    1 VCC_HOST )
-  (    2 GND )
-  (    3 ? )
-  (    4 SWCLK_HOST )
-  (    5 SWO_HOST )
-  (    6 nRESET_HOST )
-  (    7 VCC_HOST )
-  (    8 GND )
-  (    9 GNDA )
-  (   10 VCC_TRGT )
-  (   11 nRESET_TRGT )
-  (   12 SWO_TRGT )
-  (   13 SWCLK_TRGT )
-  (   14 ? )
-  (   15 GNDA )
-  (   16 VCC_TRGT )
- )
-)
-*
-{ Allowed footprints by component:
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- U1 13
- R5 2
-Net 2 "" ""
- D2 1
- R2 2
-Net 4 "" ""
- R6 2
- U1 12
-Net 5 "GNDA" "GNDA"
- U1 9
- J2 6
- U2 15
- U1 15
- J2 8
- J3 5
- J3 9
- J2 4
- J2 12
- J3 3
- J2 20
- J2 10
- U2 9
- R7 2
- C3 2
- C4 2
- J2 18
- J2 16
- J2 14
-Net 6 "" ""
- U1 5
- R4 1
-Net 7 "" ""
- R7 1
- D3 2
-Net 8 "" ""
- R1 1
- D1 2
-Net 11 "SWDIO_TRGT" "SWDIO_TRGT"
- J2 7
- J3 2
- R5 1
- R6 1
-Net 12 "VCC_HOST" "VCC_HOST"
- U1 7
- R2 1
- U2 7
- C2 1
- C1 1
- U1 1
- J1 19
- D1 1
- U2 1
-Net 14 "nRESET_HOST" "nRESET_HOST"
- J1 15
- D2 2
- U2 6
-Net 16 "SWCLK_TRGT" "SWCLK_TRGT"
- U2 13
- J3 4
- J2 9
-Net 17 "nRESET_TRGT" "nRESET_TRGT"
- U2 11
- J2 15
- J3 10
-Net 19 "SWO_HOST" "SWO_HOST"
- U2 5
- J1 13
-Net 20 "SWCLK_HOST" "SWCLK_HOST"
- J1 9
- U2 4
-Net 22 "SWO_TRGT" "SWO_TRGT"
- J2 13
- U2 12
- J3 6
-Net 28 "SWDIO_HOST" "SWDIO_HOST"
- J1 7
- R3 2
- R4 2
-Net 30 "" ""
- U1 4
- R3 1
-Net 32 "VTREF_HOST" "VTREF_HOST"
- U1 6
- J1 1
-Net 35 "GND" "GND"
- U2 8
- C1 2
- U1 2
- U2 2
- J1 12
- C2 2
- J1 14
- J1 16
- J1 18
- R1 2
- U1 8
- J1 10
- J1 8
- J1 20
- J1 4
- J1 6
-Net 36 "VCC_TRGT" "VCC_TRGT"
- U2 10
- J2 1
- C4 1
- U1 16
- U2 16
- C3 1
- J3 1
- D3 1
- U1 10
- U1 11
-}
-#End
+(export (version D)
+  (design
+    (source "C:/Documents and Settings/npendlet/Desktop/temp/swdiso/hw/kicad/swdiso.sch")
+    (date "3/15/2013 4:07:15 PM")
+    (tool "eeschema (2013-03-04 BZR 3984)-stable"))
+  (components
+    (comp (ref C2)
+      (value C)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CEFED))
+    (comp (ref C4)
+      (value C)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CEFE6))
+    (comp (ref C3)
+      (value C)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CEFA0))
+    (comp (ref C1)
+      (value C)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CEF82))
+    (comp (ref U1)
+      (value SI8442)
+      (libsource (lib swdiso) (part SI8442))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CBB71))
+    (comp (ref R2)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCBBB))
+    (comp (ref D2)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCBB9))
+    (comp (ref R1)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCB8F))
+    (comp (ref D1)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCB8C))
+    (comp (ref R7)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCB59))
+    (comp (ref D3)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CCB51))
+    (comp (ref R6)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC198))
+    (comp (ref R5)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC194))
+    (comp (ref R4)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC148))
+    (comp (ref R3)
+      (value R)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC13C))
+    (comp (ref J1)
+      (value ARM_20PIN)
+      (libsource (lib swdiso) (part ARM_20PIN))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC047))
+    (comp (ref J3)
+      (value ARM_10PIN)
+      (libsource (lib swdiso) (part ARM_10PIN))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 512CC040))
+    (comp (ref U2)
+      (value SI8442)
+      (libsource (lib swdiso) (part SI8442))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 51438294)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib swdiso) (part ARM_10PIN)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) ARM_10PIN))
+      (pins
+        (pin (num 1) (name VCC) (type input))
+        (pin (num 2) (name SWDIO/TMS) (type input))
+        (pin (num 3) (name GND) (type input))
+        (pin (num 4) (name SWCLK/TCLK) (type input))
+        (pin (num 5) (name GND) (type input))
+        (pin (num 6) (name SWO/TDO) (type input))
+        (pin (num 7) (name RTCK) (type input))
+        (pin (num 8) (name NC-EXTb/TDI) (type input))
+        (pin (num 9) (name GND) (type input))
+        (pin (num 10) (name nRESET) (type input))))
+    (libpart (lib swdiso) (part ARM_20PIN)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) ARM_20PIN))
+      (pins
+        (pin (num 1) (name VTREF) (type input))
+        (pin (num 2) (name "VCC(optional)") (type input))
+        (pin (num 3) (name TRST) (type input))
+        (pin (num 4) (name GND) (type input))
+        (pin (num 5) (name TDI) (type input))
+        (pin (num 6) (name GND) (type input))
+        (pin (num 7) (name SWDIO/TMS) (type BiDi))
+        (pin (num 8) (name GND) (type input))
+        (pin (num 9) (name SWCLK/TCLK) (type output))
+        (pin (num 10) (name GND) (type input))
+        (pin (num 11) (name RTCK) (type input))
+        (pin (num 12) (name GND) (type input))
+        (pin (num 13) (name SWO/TDO) (type input))
+        (pin (num 14) (name GND) (type input))
+        (pin (num 15) (name nRESET) (type input))
+        (pin (num 16) (name GND) (type input))
+        (pin (num 17) (name NC) (type input))
+        (pin (num 18) (name GND) (type input))
+        (pin (num 19) (name 5V-SUPPLY) (type input))
+        (pin (num 20) (name GND) (type input))))
+    (libpart (lib swdiso) (part SI8442)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) SI8442))
+      (pins
+        (pin (num 1) (name VDD1) (type input))
+        (pin (num 2) (name GND1) (type input))
+        (pin (num 3) (name A1) (type input))
+        (pin (num 4) (name A2) (type input))
+        (pin (num 5) (name A3) (type output))
+        (pin (num 6) (name A4) (type output))
+        (pin (num 7) (name EN1) (type input))
+        (pin (num 8) (name GND1) (type input))
+        (pin (num 9) (name GND2) (type input))
+        (pin (num 10) (name EN2) (type input))
+        (pin (num 11) (name B4) (type input))
+        (pin (num 12) (name B3) (type input))
+        (pin (num 13) (name B2) (type output))
+        (pin (num 14) (name B1) (type output))
+        (pin (num 15) (name GND2) (type input))
+        (pin (num 16) (name VDD2) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\device.lib"))
+    (library (logical swdiso)
+      (uri swdiso.lib)))
+  (nets
+    (net (code 1) (name VCC_HOST)
+      (node (ref R2) (pin 1))
+      (node (ref U1) (pin 7))
+      (node (ref U1) (pin 1))
+      (node (ref C1) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref D1) (pin 1))
+      (node (ref J1) (pin 19))
+      (node (ref U2) (pin 7))
+      (node (ref U2) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref U1) (pin 5))
+      (node (ref R4) (pin 1)))
+    (net (code 3) (name "")
+      (node (ref R3) (pin 1))
+      (node (ref U1) (pin 4)))
+    (net (code 4) (name SWDIO_HOST)
+      (node (ref J1) (pin 7))
+      (node (ref R3) (pin 2))
+      (node (ref R4) (pin 2)))
+    (net (code 5) (name "")
+      (node (ref R1) (pin 1))
+      (node (ref D1) (pin 2)))
+    (net (code 6) (name "")
+      (node (ref U1) (pin 12))
+      (node (ref R6) (pin 2)))
+    (net (code 7) (name "")
+      (node (ref U1) (pin 13))
+      (node (ref R5) (pin 2)))
+    (net (code 8) (name "")
+      (node (ref U1) (pin 14)))
+    (net (code 9) (name "")
+      (node (ref D2) (pin 1))
+      (node (ref R2) (pin 2)))
+    (net (code 10) (name "")
+      (node (ref D3) (pin 2))
+      (node (ref R7) (pin 1)))
+    (net (code 11) (name "")
+      (node (ref J1) (pin 5)))
+    (net (code 12) (name "")
+      (node (ref U2) (pin 6)))
+    (net (code 13) (name "")
+      (node (ref J1) (pin 2)))
+    (net (code 14) (name "")
+      (node (ref J1) (pin 3)))
+    (net (code 15) (name "")
+      (node (ref J1) (pin 11)))
+    (net (code 16) (name "")
+      (node (ref J1) (pin 17)))
+    (net (code 17) (name "")
+      (node (ref J3) (pin 8)))
+    (net (code 18) (name "")
+      (node (ref J3) (pin 7)))
+    (net (code 19) (name "")
+      (node (ref U1) (pin 3)))
+    (net (code 20) (name SWO_HOST)
+      (node (ref J1) (pin 13))
+      (node (ref U2) (pin 5)))
+    (net (code 21) (name "")
+      (node (ref U2) (pin 11)))
+    (net (code 22) (name SWCLK_TRGT)
+      (node (ref J3) (pin 4))
+      (node (ref U2) (pin 14)))
+    (net (code 23) (name SWCLK_HOST)
+      (node (ref U2) (pin 3))
+      (node (ref J1) (pin 9)))
+    (net (code 24) (name nRESET_HOST)
+      (node (ref D2) (pin 2))
+      (node (ref U2) (pin 4))
+      (node (ref J1) (pin 15)))
+    (net (code 25) (name SWDIO_TRGT)
+      (node (ref J3) (pin 2))
+      (node (ref R5) (pin 1))
+      (node (ref R6) (pin 1)))
+    (net (code 26) (name SWO_TRGT)
+      (node (ref U2) (pin 12))
+      (node (ref J3) (pin 6)))
+    (net (code 27) (name nRESET_TRGT)
+      (node (ref J3) (pin 10))
+      (node (ref U2) (pin 13)))
+    (net (code 28) (name GND)
+      (node (ref U2) (pin 8))
+      (node (ref U2) (pin 2))
+      (node (ref U1) (pin 2))
+      (node (ref U1) (pin 8))
+      (node (ref R1) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref J1) (pin 18))
+      (node (ref J1) (pin 14))
+      (node (ref J1) (pin 4))
+      (node (ref J1) (pin 6))
+      (node (ref J1) (pin 8))
+      (node (ref J1) (pin 10))
+      (node (ref J1) (pin 20))
+      (node (ref J1) (pin 12))
+      (node (ref C1) (pin 2))
+      (node (ref J1) (pin 16)))
+    (net (code 29) (name VCC_TRGT)
+      (node (ref C3) (pin 1))
+      (node (ref U1) (pin 16))
+      (node (ref D3) (pin 1))
+      (node (ref U1) (pin 10))
+      (node (ref J3) (pin 1))
+      (node (ref U1) (pin 11))
+      (node (ref C4) (pin 1))
+      (node (ref U2) (pin 16))
+      (node (ref U2) (pin 10)))
+    (net (code 30) (name VTREF_HOST)
+      (node (ref U1) (pin 6))
+      (node (ref J1) (pin 1)))
+    (net (code 31) (name GNDA)
+      (node (ref J3) (pin 3))
+      (node (ref J3) (pin 5))
+      (node (ref U2) (pin 15))
+      (node (ref U2) (pin 9))
+      (node (ref R7) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref C3) (pin 2))
+      (node (ref J3) (pin 9))
+      (node (ref U1) (pin 15))
+      (node (ref U1) (pin 9)))))

@@ -13,6 +13,9 @@ https://raw.github.com/noahp/swdiso/master/hw/kicad/swdiso.pdf
 ------
 http://www.digikey.com/product-detail/en/GRPB052VWVN-RC/S9015E-05-ND/1786455
 
+10 pin cable end-  
+http://www.mouser.com/Search/ProductDetail.aspx?R=90635-1101virtualkey53810000virtualkey538-90635-1101
+
 20 pin male
 ------
 http://www.digikey.com/product-detail/en/SFH11-PBPC-D10-ST-BK/S9197-ND/1990090

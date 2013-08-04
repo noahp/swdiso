@@ -1,6 +1,7 @@
 swdiso
 ======
-Your basic SWD (Serial Wire Debug) Isolation module.
+Your basic SWD (Serial Wire Debug) Isolation module.  
+*Note: some targets won't be able to generate software resets with this isolation module connected and powered, requires modification of the reset line circuit.
 
 schematic
 ---------
